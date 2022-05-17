@@ -1,5 +1,7 @@
 const http = require('http');
 
+require("dotenv").config();
+
 // We've now seperated all of our express middleware from our server functions.
 const app = require("./app");
 const { mongoConnect } = require("./services/mongo");
