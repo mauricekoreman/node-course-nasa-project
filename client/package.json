@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "set BUILD_PATH=../server/public&& react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -38,3 +38,4 @@
     "nth-check@1.0.2": "2.0.1"
   }
 }
+
